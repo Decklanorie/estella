@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "204963160667",
+    "project_id": "estella1",
+    "storage_bucket": "estella1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204963160667:android:bb54af40eb8e0a3c2cd57e",
+        "android_client_info": {
+          "package_name": "ng.estella.estella"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfZYalKthzlwrlzG1VXlzRbsfODVkVuCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

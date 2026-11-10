@@ -1,0 +1,1 @@
+const emptyProfilePhoto = "assets/images/User Circle Single.png";

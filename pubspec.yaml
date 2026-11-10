@@ -1,0 +1,75 @@
+name: estella
+description: ""
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  go_router:
+  google_fonts:
+  flutter_svg:
+  flutter_native_splash:
+  cached_network_image:
+  hive:
+  riverpod:
+  hive_flutter:
+  firebase_auth:
+  firebase_messaging:
+  flutter_riverpod:
+  either_option:
+  intl:
+  flutter_dotenv:
+  fluttertoast:
+  json_annotation:
+  carousel_slider:
+  smooth_page_indicator:
+  pin_code_fields:
+  cloud_firestore:
+  firebase_core:
+  permission_handler:
+  google_sign_in:
+  firebase_storage:
+  firebase_app_check:
+  flutter_html:
+  responsive_framework: 0.2.0
+  flutter_map: 8.0.0
+  latlong2:
+  geolocator:
+  mapbox_maps_flutter:
+  geocoding:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+flutter_native_splash:
+  image: assets/images/splash.png
+  color: "#122A11"
+  image_dark: assets/images/splash.png
+  android_12:
+    image: assets/images/splash.png
+    icon_background_color: "#122A11"
+    image_dark: assets/images/splash.png
+    icon_background_color_dark: "#122A11"
+
+
+dev_dependencies:
+  build_runner:
+  flutter_gen:
+  flutter_gen_runner:
+  json_serializable:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - .env
+

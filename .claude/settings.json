@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcrun simctl *)",
+      "Read(//Users/keeley/Library/Developer/CoreSimulator/Devices/CB678ED2-4FC7-4694-B12C-343DBF070E26/**)",
+      "Bash(sort -t/ -k1)",
+      "Bash(dart pub *)",
+      "Bash(flutterfire configure *)",
+      "Bash(firebase login:list)",
+      "Bash(firebase projects:list)",
+      "Bash(flutter analyze *)",
+      "Bash(flutter --version)",
+      "Bash(flutter doctor *)",
+      "Bash(flutter build *)",
+      "Bash(ls /Users/keeley/VSCodeProjects/ 2>/dev/null || echo \"Directory empty or doesn't exist\")",
+      "Read(//Users/keeley/VSCodeProjects/**)",
+      "Bash(mkdir -p /Users/keeley/VSCodeProjects/estella-admin/app/dashboard/orders)",
+      "Bash(mkdir -p /Users/keeley/VSCodeProjects/estella-admin/app/dashboard/washers)",
+      "Bash(mkdir -p /Users/keeley/VSCodeProjects/estella-admin/app/dashboard/users)",
+      "Bash(mkdir -p /Users/keeley/VSCodeProjects/estella-admin/components)",
+      "Bash(mkdir -p /Users/keeley/VSCodeProjects/estella-admin/lib)",
+      "Bash(sudo chown -R 501:20 \"/Users/keeley/.npm\")",
+      "Bash(npm run *)",
+      "Bash(./node_modules/.bin/next build *)",
+      "Bash(node node_modules/next/dist/bin/next build)",
+      "Bash(node_modules/.bin/next build *)",
+      "Bash(firebase --version)",
+      "Bash(vercel --version)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/keeley/.npm/bin/**)",
+      "Bash(npx vercel *)"
+    ],
+    "additionalDirectories": [
+      "/Users/keeley/VSCodeProjects/estella-admin"
+    ]
+  }
+}
